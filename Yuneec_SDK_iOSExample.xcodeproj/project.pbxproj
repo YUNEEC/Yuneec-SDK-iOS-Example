@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080E8C391E55DED200E48132 /* MissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080E8C381E55DED200E48132 /* MissionViewController.m */; };
+		080E8C4A1E56F33500E48132 /* ExampleMission.m in Sources */ = {isa = PBXBuildFile; fileRef = 080E8C491E56F33500E48132 /* ExampleMission.m */; };
+		080E8C4F1E570BDE00E48132 /* Yuneec_SDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080E8C4E1E570BDE00E48132 /* Yuneec_SDK_iOS.framework */; };
+		080E8C501E570C1200E48132 /* Yuneec_SDK_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 080E8C4E1E570BDE00E48132 /* Yuneec_SDK_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		08935DBF1E0D93A2005637FC /* OffboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08935DBE1E0D93A2005637FC /* OffboardViewController.m */; };
+		08B23E241E0BB9F000191C2B /* TelemetryEntries.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B23E231E0BB9F000191C2B /* TelemetryEntries.m */; };
+		B9CA40E11DDED11800969C9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CA40CF1DDED11800969C9D /* AppDelegate.m */; };
+		B9CA40E21DDED11800969C9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CA40D01DDED11800969C9D /* Assets.xcassets */; };
+		B9CA40E31DDED11800969C9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CA40D11DDED11800969C9D /* LaunchScreen.storyboard */; };
+		B9CA40E41DDED11800969C9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CA40D31DDED11800969C9D /* Main.storyboard */; };
+		B9CA40E61DDED11800969C9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CA40D71DDED11800969C9D /* main.m */; };
+		B9CA40F21DDED16800969C9D /* TelemetryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CA40F01DDED16800969C9D /* TelemetryEntry.m */; };
+		B9CA40F91DDED17D00969C9D /* ActionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CA40F41DDED17D00969C9D /* ActionsViewController.m */; };
+		F45DD4171DE3CFE000654A44 /* TelemetryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45DD4161DE3CFE000654A44 /* TelemetryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		082C068C1E157A9800BDD785 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				080E8C501E570C1200E48132 /* Yuneec_SDK_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		080E8C371E55DED200E48132 /* MissionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MissionViewController.h; sourceTree = "<group>"; };
+		080E8C381E55DED200E48132 /* MissionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MissionViewController.m; sourceTree = "<group>"; };
+		080E8C481E56F33500E48132 /* ExampleMission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMission.h; sourceTree = "<group>"; };
+		080E8C491E56F33500E48132 /* ExampleMission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMission.m; sourceTree = "<group>"; };
+		080E8C4E1E570BDE00E48132 /* Yuneec_SDK_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yuneec_SDK_iOS.framework; path = Carthage/Build/iOS/Yuneec_SDK_iOS.framework; sourceTree = SOURCE_ROOT; };
+		0819E1791D6C41EE00571D3C /* Yuneec_SDK_iOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yuneec_SDK_iOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08935DBD1E0D93A2005637FC /* OffboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffboardViewController.h; sourceTree = "<group>"; };
+		08935DBE1E0D93A2005637FC /* OffboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffboardViewController.m; sourceTree = "<group>"; };
+		08B23E221E0BB9F000191C2B /* TelemetryEntries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelemetryEntries.h; sourceTree = "<group>"; };
+		08B23E231E0BB9F000191C2B /* TelemetryEntries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelemetryEntries.m; sourceTree = "<group>"; };
+		08BEBD121D74723100FDBDCC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		08BEBD141D74725600FDBDCC /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		B9CA40CE1DDED11800969C9D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9CA40CF1DDED11800969C9D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9CA40D01DDED11800969C9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9CA40D21DDED11800969C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9CA40D41DDED11800969C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9CA40D61DDED11800969C9D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9CA40D71DDED11800969C9D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9CA40EF1DDED16800969C9D /* TelemetryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelemetryEntry.h; sourceTree = "<group>"; };
+		B9CA40F01DDED16800969C9D /* TelemetryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelemetryEntry.m; sourceTree = "<group>"; };
+		B9CA40F31DDED17D00969C9D /* ActionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionsViewController.h; sourceTree = "<group>"; };
+		B9CA40F41DDED17D00969C9D /* ActionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionsViewController.m; sourceTree = "<group>"; };
+		B9CA40F51DDED17D00969C9D /* TelemetryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelemetryViewController.h; sourceTree = "<group>"; };
+		F45DD4161DE3CFE000654A44 /* TelemetryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelemetryViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0819E1761D6C41EE00571D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080E8C4F1E570BDE00E48132 /* Yuneec_SDK_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0819E1701D6C41EE00571D3C = {
+			isa = PBXGroup;
+			children = (
+				B9CA40CB1DDED11800969C9D /* SdkExample */,
+				B9CA40CA1DDED09A00969C9D /* Frameworks */,
+				0819E17A1D6C41EE00571D3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0819E17A1D6C41EE00571D3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0819E1791D6C41EE00571D3C /* Yuneec_SDK_iOSExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9CA40CA1DDED09A00969C9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				080E8C4E1E570BDE00E48132 /* Yuneec_SDK_iOS.framework */,
+				08BEBD141D74725600FDBDCC /* libstdc++.tbd */,
+				08BEBD121D74723100FDBDCC /* libc++.tbd */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9CA40CB1DDED11800969C9D /* SdkExample */ = {
+			isa = PBXGroup;
+			children = (
+				B9CA40CE1DDED11800969C9D /* AppDelegate.h */,
+				B9CA40CF1DDED11800969C9D /* AppDelegate.m */,
+				B9CA40D51DDED11800969C9D /* Controllers */,
+				B9CA40EC1DDED16800969C9D /* Model */,
+				B9CA40D31DDED11800969C9D /* Main.storyboard */,
+				B9CA40D01DDED11800969C9D /* Assets.xcassets */,
+				B9CA40D11DDED11800969C9D /* LaunchScreen.storyboard */,
+				B9CA40D61DDED11800969C9D /* Info.plist */,
+				B9CA40D71DDED11800969C9D /* main.m */,
+			);
+			path = SdkExample;
+			sourceTree = "<group>";
+		};
+		B9CA40D51DDED11800969C9D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B9CA40F51DDED17D00969C9D /* TelemetryViewController.h */,
+				F45DD4161DE3CFE000654A44 /* TelemetryViewController.m */,
+				B9CA40F31DDED17D00969C9D /* ActionsViewController.h */,
+				B9CA40F41DDED17D00969C9D /* ActionsViewController.m */,
+				08935DBD1E0D93A2005637FC /* OffboardViewController.h */,
+				08935DBE1E0D93A2005637FC /* OffboardViewController.m */,
+				080E8C371E55DED200E48132 /* MissionViewController.h */,
+				080E8C381E55DED200E48132 /* MissionViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B9CA40EC1DDED16800969C9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9CA40EF1DDED16800969C9D /* TelemetryEntry.h */,
+				B9CA40F01DDED16800969C9D /* TelemetryEntry.m */,
+				08B23E221E0BB9F000191C2B /* TelemetryEntries.h */,
+				08B23E231E0BB9F000191C2B /* TelemetryEntries.m */,
+				080E8C481E56F33500E48132 /* ExampleMission.h */,
+				080E8C491E56F33500E48132 /* ExampleMission.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0819E1781D6C41EE00571D3C /* Yuneec_SDK_iOSExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0819E1901D6C41EE00571D3C /* Build configuration list for PBXNativeTarget "Yuneec_SDK_iOSExample" */;
+			buildPhases = (
+				0819E1761D6C41EE00571D3C /* Frameworks */,
+				0819E1751D6C41EE00571D3C /* Sources */,
+				0819E1771D6C41EE00571D3C /* Resources */,
+				082C068C1E157A9800BDD785 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yuneec_SDK_iOSExample;
+			productName = SdkExample;
+			productReference = 0819E1791D6C41EE00571D3C /* Yuneec_SDK_iOSExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0819E1711D6C41EE00571D3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YNC;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yuneec;
+				TargetAttributes = {
+					0819E1781D6C41EE00571D3C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4XMPKL26G2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 0819E1741D6C41EE00571D3C /* Build configuration list for PBXProject "Yuneec_SDK_iOSExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0819E1701D6C41EE00571D3C;
+			productRefGroup = 0819E17A1D6C41EE00571D3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0819E1781D6C41EE00571D3C /* Yuneec_SDK_iOSExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0819E1771D6C41EE00571D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CA40E41DDED11800969C9D /* Main.storyboard in Resources */,
+				B9CA40E21DDED11800969C9D /* Assets.xcassets in Resources */,
+				B9CA40E31DDED11800969C9D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0819E1751D6C41EE00571D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080E8C4A1E56F33500E48132 /* ExampleMission.m in Sources */,
+				08B23E241E0BB9F000191C2B /* TelemetryEntries.m in Sources */,
+				B9CA40F21DDED16800969C9D /* TelemetryEntry.m in Sources */,
+				F45DD4171DE3CFE000654A44 /* TelemetryViewController.m in Sources */,
+				080E8C391E55DED200E48132 /* MissionViewController.m in Sources */,
+				B9CA40F91DDED17D00969C9D /* ActionsViewController.m in Sources */,
+				B9CA40E11DDED11800969C9D /* AppDelegate.m in Sources */,
+				B9CA40E61DDED11800969C9D /* main.m in Sources */,
+				08935DBF1E0D93A2005637FC /* OffboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9CA40D11DDED11800969C9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9CA40D21DDED11800969C9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B9CA40D31DDED11800969C9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9CA40D41DDED11800969C9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0819E18E1D6C41EE00571D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0819E18F1D6C41EE00571D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0819E1911D6C41EE00571D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4XMPKL26G2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = c11;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = SdkExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuneec.SdkExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b1a7733b-b94b-4371-a169-5c5cc7e7da7c";
+				PROVISIONING_PROFILE_SPECIFIER = "Development Julian";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0819E1921D6C41EE00571D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4XMPKL26G2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = c11;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = SdkExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuneec.SdkExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b1a7733b-b94b-4371-a169-5c5cc7e7da7c";
+				PROVISIONING_PROFILE_SPECIFIER = "Development Julian";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0819E1741D6C41EE00571D3C /* Build configuration list for PBXProject "Yuneec_SDK_iOSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0819E18E1D6C41EE00571D3C /* Debug */,
+				0819E18F1D6C41EE00571D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0819E1901D6C41EE00571D3C /* Build configuration list for PBXNativeTarget "Yuneec_SDK_iOSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0819E1911D6C41EE00571D3C /* Debug */,
+				0819E1921D6C41EE00571D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0819E1711D6C41EE00571D3C /* Project object */;
+}
