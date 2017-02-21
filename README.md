@@ -40,7 +40,7 @@ Make sure framework is added in project (it should already be there):
 3. Click Other, go one folder up, and select `Carthage/Build/iOS/Yuneec_SDK_iOS.framework`.
 4. Do "Product Clean" and "Product Build"
 
-## Use the Yuneec software in the lopo (SITL) simulation for testing
+## Use the Yuneec software in the loop (SITL) simulation for testing
 
 The iOS app can be tested against the software simulation.
 
