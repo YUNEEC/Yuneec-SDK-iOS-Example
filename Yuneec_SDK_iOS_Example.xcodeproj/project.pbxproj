@@ -20,6 +20,7 @@
 		B9CA40E61DDED11800969C9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CA40D71DDED11800969C9D /* main.m */; };
 		B9CA40F21DDED16800969C9D /* TelemetryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CA40F01DDED16800969C9D /* TelemetryEntry.m */; };
 		B9CA40F91DDED17D00969C9D /* ActionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CA40F41DDED17D00969C9D /* ActionsViewController.m */; };
+		C7B74E8A1F57160E0037232F /* YuneecLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B74E891F57160E0037232F /* YuneecLogo.png */; };
 		F45DD4171DE3CFE000654A44 /* TelemetryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45DD4161DE3CFE000654A44 /* TelemetryViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		B9CA40F31DDED17D00969C9D /* ActionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionsViewController.h; sourceTree = "<group>"; };
 		B9CA40F41DDED17D00969C9D /* ActionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionsViewController.m; sourceTree = "<group>"; };
 		B9CA40F51DDED17D00969C9D /* TelemetryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelemetryViewController.h; sourceTree = "<group>"; };
+		C7B74E891F57160E0037232F /* YuneecLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YuneecLogo.png; sourceTree = "<group>"; };
 		F45DD4161DE3CFE000654A44 /* TelemetryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelemetryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +118,7 @@
 				B9CA40D11DDED11800969C9D /* LaunchScreen.storyboard */,
 				B9CA40D61DDED11800969C9D /* Info.plist */,
 				B9CA40D71DDED11800969C9D /* main.m */,
+				C7B74E891F57160E0037232F /* YuneecLogo.png */,
 			);
 			path = SdkExample;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				B9CA40E41DDED11800969C9D /* Main.storyboard in Resources */,
 				B9CA40E21DDED11800969C9D /* Assets.xcassets in Resources */,
 				B9CA40E31DDED11800969C9D /* LaunchScreen.storyboard in Resources */,
+				C7B74E8A1F57160E0037232F /* YuneecLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
