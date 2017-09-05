@@ -21,7 +21,7 @@
 		B9CA40F21DDED16800969C9D /* TelemetryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CA40F01DDED16800969C9D /* TelemetryEntry.m */; };
 		B9CA40F91DDED17D00969C9D /* ActionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CA40F41DDED17D00969C9D /* ActionsViewController.m */; };
 		C7B74E8A1F57160E0037232F /* YuneecLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B74E891F57160E0037232F /* YuneecLogo.png */; };
-		F45DD4171DE3CFE000654A44 /* TelemetryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45DD4161DE3CFE000654A44 /* TelemetryViewController.m */; };
+		C7B74E8D1F5733FF0037232F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B74E8C1F5733FF0037232F /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,9 +62,9 @@
 		B9CA40F01DDED16800969C9D /* TelemetryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelemetryEntry.m; sourceTree = "<group>"; };
 		B9CA40F31DDED17D00969C9D /* ActionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionsViewController.h; sourceTree = "<group>"; };
 		B9CA40F41DDED17D00969C9D /* ActionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionsViewController.m; sourceTree = "<group>"; };
-		B9CA40F51DDED17D00969C9D /* TelemetryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelemetryViewController.h; sourceTree = "<group>"; };
 		C7B74E891F57160E0037232F /* YuneecLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YuneecLogo.png; sourceTree = "<group>"; };
-		F45DD4161DE3CFE000654A44 /* TelemetryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelemetryViewController.m; sourceTree = "<group>"; };
+		C7B74E8B1F5733FF0037232F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C7B74E8C1F5733FF0037232F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +126,8 @@
 		B9CA40D51DDED11800969C9D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B9CA40F51DDED17D00969C9D /* TelemetryViewController.h */,
-				F45DD4161DE3CFE000654A44 /* TelemetryViewController.m */,
+				C7B74E8B1F5733FF0037232F /* HomeViewController.h */,
+				C7B74E8C1F5733FF0037232F /* HomeViewController.m */,
 				B9CA40F31DDED17D00969C9D /* ActionsViewController.h */,
 				B9CA40F41DDED17D00969C9D /* ActionsViewController.m */,
 				08935DBD1E0D93A2005637FC /* OffboardViewController.h */,
@@ -184,8 +184,8 @@
 				TargetAttributes = {
 					0819E1781D6C41EE00571D3C = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 4XMPKL26G2;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 6JV6698PTE;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -229,7 +229,7 @@
 				080E8C4A1E56F33500E48132 /* ExampleMission.m in Sources */,
 				08B23E241E0BB9F000191C2B /* TelemetryEntries.m in Sources */,
 				B9CA40F21DDED16800969C9D /* TelemetryEntry.m in Sources */,
-				F45DD4171DE3CFE000654A44 /* TelemetryViewController.m in Sources */,
+				C7B74E8D1F5733FF0037232F /* HomeViewController.m in Sources */,
 				080E8C391E55DED200E48132 /* MissionViewController.m in Sources */,
 				B9CA40F91DDED17D00969C9D /* ActionsViewController.m in Sources */,
 				B9CA40E11DDED11800969C9D /* AppDelegate.m in Sources */,
@@ -355,7 +355,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 4XMPKL26G2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6JV6698PTE;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -370,8 +371,8 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuneec.SdkExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b1a7733b-b94b-4371-a169-5c5cc7e7da7c";
-				PROVISIONING_PROFILE_SPECIFIER = "Development Julian";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -382,7 +383,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 4XMPKL26G2;
+				DEVELOPMENT_TEAM = 6JV6698PTE;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -397,8 +398,8 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuneec.SdkExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b1a7733b-b94b-4371-a169-5c5cc7e7da7c";
-				PROVISIONING_PROFILE_SPECIFIER = "Development Julian";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

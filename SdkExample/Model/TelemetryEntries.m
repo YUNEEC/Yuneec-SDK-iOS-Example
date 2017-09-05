@@ -15,12 +15,13 @@
                                 YNCSDKTelemetryGroundSpeedNEDDelegate,
                                 YNCSDKTelemetryAttitudeEulerAngleDelegate,
                                 YNCSDKTelemetryInAirDelegate,
-                                YNCSDKTelemetryGPSInfoDelegate,
+                               YNCSDKTelemetryGPSInfoDelegate,
                                 YNCSDKTelemetryArmedDelegate,
                                 YNCSDKTelemetryHealthDelegate>
 @end
 
 @implementation TelemetryEntries
+
 
 NS_ENUM(NSInteger, EntryType) {
     ALTITUDE = 0,
@@ -32,6 +33,7 @@ NS_ENUM(NSInteger, EntryType) {
     IN_AIR,
     ARMED,
     HEALTH,
+    CONNECTION,
     ENTRY_TYPE_MAX
 };
 
@@ -95,6 +97,12 @@ NS_ENUM(NSInteger, EntryType) {
             entry.property = @"Health";
             [_entries insertObject:entry atIndex:HEALTH];
         }
+        {
+            TelemetryEntry *entry = [[TelemetryEntry alloc] init];
+            entry.property = @"Connection";
+            entry.value = @"No Connection";
+            [_entries insertObject:entry atIndex:CONNECTION];
+        }
     }
     return self;
 }
@@ -108,6 +116,13 @@ NS_ENUM(NSInteger, EntryType) {
     [[[YNCSDKTelemetryGPSInfo alloc] init] subscribe: self];
     [[[YNCSDKTelemetryArmed alloc] init] subscribe: self];
     [[[YNCSDKTelemetryHealth alloc] init] subscribe: self];
+    _entries[CONNECTION].value = [NSString stringWithFormat:@"Connected"];
+  
+}
+
+- (void)onTimeout {
+    _entries[CONNECTION].value = [NSString stringWithFormat:@"Not Connected"];
+
 }
 
 - (void)onPositionUpdate:(YNCPosition *)position {
@@ -115,7 +130,7 @@ NS_ENUM(NSInteger, EntryType) {
                                           position.relativeAltitudeM,
                                           position.absoluteAltitudeM];
     
-    _entries[LATITUDE_LONGITUDE].value = [NSString stringWithFormat:@"%.6f deg, %.6f deg",
+    _entries[LATITUDE_LONGITUDE].value = [NSString stringWithFormat:@"%.6f Deg, %.6f Deg",
                                                     position.latitudeDeg,
                                                     position.longitudeDeg];
 }
@@ -137,7 +152,7 @@ NS_ENUM(NSInteger, EntryType) {
 
 - (void)onAttitudeEulerAngleUpdate:(YNCAttitudeEulerAngle *)attitudeEulerAngle {
     
-    _entries[ATTITUDE].value = [NSString stringWithFormat:@"%d deg, %d deg, %d deg",
+    _entries[ATTITUDE].value = [NSString stringWithFormat:@"%d Deg, %d deg, %d Deg",
                                          (int)(attitudeEulerAngle.rollDeg),
                                          (int)(attitudeEulerAngle.pitchDeg),
                                          (int)(attitudeEulerAngle.yawDeg)];
@@ -187,8 +202,8 @@ NS_ENUM(NSInteger, EntryType) {
         position_ok = true;
     }
     
-    _entries[HEALTH].value = [NSString stringWithFormat:@"calibration %@, position %@",
-                                        calibration_ok ? @"ok" : @"not ok",
-                                        position_ok ? @"ok" : @"not ok"];
+    _entries[HEALTH].value = [NSString stringWithFormat:@"Calibration %@, GPS %@",
+                                        calibration_ok ? @"Ready" : @"Not OK",
+                                        position_ok ? @"Ready" : @"Acquiring"];
 }
 @end

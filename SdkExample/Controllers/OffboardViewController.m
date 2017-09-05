@@ -131,6 +131,7 @@ typedef NS_ENUM(NSInteger, OffboardMode) {
         }
     }];
     _running = false;
+    
 }
 
 - (IBAction)leftVirtualStickAction:(UIPanGestureRecognizer *)sender {
@@ -221,7 +222,7 @@ typedef NS_ENUM(NSInteger, OffboardMode) {
     if (_offboardMode.selectedSegmentIndex == OFFBOARD_MODE_NED) {
         self.label_yaw.text = [NSString stringWithFormat:@"Yaw:\n%.2f deg", _yaw_deg];
     } else if (_offboardMode.selectedSegmentIndex == OFFBOARD_MODE_BODY) {
-        self.label_yaw.text = [NSString stringWithFormat:@"Yaw speed:\n%.2f deg/s", _yawspeed_deg_s];
+        self.label_yaw.text = [NSString stringWithFormat:@"Yaw Speed:\n%.2f deg/s", _yawspeed_deg_s];
     }
 }
 
