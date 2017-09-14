@@ -2,7 +2,7 @@
 //  MissionViewController.m
 //  Yuneec_SDK_iOSExample
 //
-//  Created by Julian Oes on 16/02/17.
+//  Created by Steven Hall on 9/13/17.
 //  Copyright © 2017 yuneec. All rights reserved.
 //
 

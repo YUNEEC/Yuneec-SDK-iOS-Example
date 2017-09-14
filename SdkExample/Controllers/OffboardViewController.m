@@ -2,8 +2,8 @@
 //  OffboardViewController.m
 //  Yuneec_SDK_iOSExample
 //
-//  Created by Julian Oes on 23/12/16.
-//  Copyright © 2016 yuneec. All rights reserved.
+//  Created by Steven Hall on 9/13/17.
+//  Copyright © 2017 yuneec. All rights reserved.
 //
 
 #import "OffboardViewController.h"

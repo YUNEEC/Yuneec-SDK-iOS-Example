@@ -20,6 +20,7 @@
 		B9CA40E61DDED11800969C9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CA40D71DDED11800969C9D /* main.m */; };
 		B9CA40F21DDED16800969C9D /* TelemetryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CA40F01DDED16800969C9D /* TelemetryEntry.m */; };
 		B9CA40F91DDED17D00969C9D /* ActionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CA40F41DDED17D00969C9D /* ActionsViewController.m */; };
+		C77F07BB1F6A050B002B8499 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F07BA1F6A050B002B8499 /* CameraViewController.m */; };
 		C7B74E8A1F57160E0037232F /* YuneecLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B74E891F57160E0037232F /* YuneecLogo.png */; };
 		C7B74E8D1F5733FF0037232F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B74E8C1F5733FF0037232F /* HomeViewController.m */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,8 @@
 		B9CA40F01DDED16800969C9D /* TelemetryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelemetryEntry.m; sourceTree = "<group>"; };
 		B9CA40F31DDED17D00969C9D /* ActionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionsViewController.h; sourceTree = "<group>"; };
 		B9CA40F41DDED17D00969C9D /* ActionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionsViewController.m; sourceTree = "<group>"; };
+		C77F07B91F6A050B002B8499 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		C77F07BA1F6A050B002B8499 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		C7B74E891F57160E0037232F /* YuneecLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YuneecLogo.png; sourceTree = "<group>"; };
 		C7B74E8B1F5733FF0037232F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		C7B74E8C1F5733FF0037232F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
@@ -134,6 +137,8 @@
 				08935DBE1E0D93A2005637FC /* OffboardViewController.m */,
 				080E8C371E55DED200E48132 /* MissionViewController.h */,
 				080E8C381E55DED200E48132 /* MissionViewController.m */,
+				C77F07B91F6A050B002B8499 /* CameraViewController.h */,
+				C77F07BA1F6A050B002B8499 /* CameraViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 				B9CA40F21DDED16800969C9D /* TelemetryEntry.m in Sources */,
 				C7B74E8D1F5733FF0037232F /* HomeViewController.m in Sources */,
 				080E8C391E55DED200E48132 /* MissionViewController.m in Sources */,
+				C77F07BB1F6A050B002B8499 /* CameraViewController.m in Sources */,
 				B9CA40F91DDED17D00969C9D /* ActionsViewController.m in Sources */,
 				B9CA40E11DDED11800969C9D /* AppDelegate.m in Sources */,
 				B9CA40E61DDED11800969C9D /* main.m in Sources */,

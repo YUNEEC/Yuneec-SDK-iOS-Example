@@ -2,8 +2,8 @@
 //  ActionsViewController.h
 //  SdkExample
 //
-//  Created by Julian Oes on 31/08/16.
-//  Copyright © 2016 Julian Oes. All rights reserved.
+//  Created by Steven Hall on 9/13/17.
+//  Copyright © 2017 yuneec. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
