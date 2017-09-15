@@ -29,7 +29,7 @@
         if (error) {
             NSLog(@"error description - domain: %@\n code: %ld\n message: %@\n",
                   error.domain, (long)error.code, error.userInfo[@"message"]);
-            [StreamViewController showAlert:[NSString stringWithFormat:@"%@ error: %@\n",
+            [CameraViewController showAlert:[NSString stringWithFormat:@"%@ error: %@\n",
                                              error.domain,
                                              error.userInfo[@"message"]] :self];
         } else {
@@ -42,7 +42,7 @@
         if (error) {
             NSLog(@"error description - domain: %@\n code: %ld\n message: %@\n",
                   error.domain, (long)error.code, error.userInfo[@"message"]);
-            [StreamViewController showAlert:[NSString stringWithFormat:@"%@ error: %@\n",
+            [CameraViewController showAlert:[NSString stringWithFormat:@"%@ error: %@\n",
                                              error.domain,
                                              error.userInfo[@"message"]] :self];
         } else {
@@ -55,7 +55,7 @@
         if (error) {
             NSLog(@"error description - domain: %@\n code: %ld\n message: %@\n",
                   error.domain, (long)error.code, error.userInfo[@"message"]);
-            [StreamViewController showAlert:[NSString stringWithFormat:@"%@ error: %@\n",
+            [CameraViewController showAlert:[NSString stringWithFormat:@"%@ error: %@\n",
                                              error.domain,
                                              error.userInfo[@"message"]] :self];
         } else {
@@ -68,7 +68,7 @@
         if (error) {
             NSLog(@"error description - domain: %@\n code: %ld\n message: %@\n",
                   error.domain, (long)error.code, error.userInfo[@"message"]);
-            [StreamViewController showAlert:[NSString stringWithFormat:@"%@ error: %@\n",
+            [CameraViewController showAlert:[NSString stringWithFormat:@"%@ error: %@\n",
                                              error.domain,
                                              error.userInfo[@"message"]] :self];
         } else {
@@ -81,7 +81,7 @@
         if (error) {
             NSLog(@"error description - domain: %@\n code: %ld\n message: %@\n",
                   error.domain, (long)error.code, error.userInfo[@"message"]);
-            [StreamViewController showAlert:[NSString stringWithFormat:@"%@ error: %@\n",
+            [CameraViewController showAlert:[NSString stringWithFormat:@"%@ error: %@\n",
                                              error.domain,
                                              error.userInfo[@"message"]] :self];
         } else {
@@ -90,14 +90,12 @@
     }];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
++ (void)showAlert:(NSString *)message :(UIViewController *)viewController {
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Alert"
+                                                                   message:message
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    [alert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil ]];
+    [viewController presentViewController:alert animated:YES completion:nil];
 }
-*/
 
 @end
