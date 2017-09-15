@@ -20,13 +20,13 @@ Then to add the framework, create the file `Cartfile` in your app's repository w
 
 ```
 # Require the iOS framework of the Yuneec SDK
-github "YUNEEC/Yuneec-SDK-iOS" >= 0.3.1
+github "YUNEEC/Yuneec-SDK-iOS" >= 0.5.7
 ```
 
 Then, to pull in the library and build it, run Carthage in your app's repository:
 
 ```
-carthage update --use-ssh
+carthage update
 ```
 
 This command also needs to be re-run if you want to udpate the framework.
