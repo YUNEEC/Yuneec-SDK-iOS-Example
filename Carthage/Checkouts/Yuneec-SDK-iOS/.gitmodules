@@ -1,3 +1,0 @@
-[submodule "Yuneec_SDK_iOS/libs/Yuneec-SDK"]
-	path = Yuneec_SDK_iOS/libs/Yuneec-SDK
-	url = git@github.com:YUNEEC/Yuneec-SDK.git
