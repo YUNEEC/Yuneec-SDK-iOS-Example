@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Protocols  Yuneec iOS SDK Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="Protocols  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+           Yuneec iOS SDK
+        </a>
+         (100% documented)
+      </p>
+    
+    <!--
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    -->
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html"> Yuneec SDK Reference</a>
+      <img class="carat" src="img/carat.png" />
+      Protocols  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCAction.html">YNCAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCAttitudeEulerAngle.html">YNCAttitudeEulerAngle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCAttitudeQuaternion.html">YNCAttitudeQuaternion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCBattery.html">YNCBattery</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCCameraSettings.html">YNCCameraSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCGPSInfo.html">YNCGPSInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCGroundSpeedNED.html">YNCGroundSpeedNED</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCHealth.html">YNCHealth</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCPosition.html">YNCPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCRCStatus.html">YNCRCStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKCamera.html">YNCSDKCamera</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKConnection.html">YNCSDKConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKGimbal.html">YNCSDKGimbal</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKMission.html">YNCSDKMission</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKMissionItem.html">YNCSDKMissionItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKOffboard.html">YNCSDKOffboard</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryArmed.html">YNCSDKTelemetryArmed</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryAttitudeEulerAngle.html">YNCSDKTelemetryAttitudeEulerAngle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryAttitudeQuaternion.html">YNCSDKTelemetryAttitudeQuaternion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryBattery.html">YNCSDKTelemetryBattery</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryCameraAttitudeEulerAngle.html">YNCSDKTelemetryCameraAttitudeEulerAngle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryCameraAttitudeQuaternion.html">YNCSDKTelemetryCameraAttitudeQuaternion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryFlightMode.html">YNCSDKTelemetryFlightMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryGPSInfo.html">YNCSDKTelemetryGPSInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryGroundSpeedNED.html">YNCSDKTelemetryGroundSpeedNED</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryHealth.html">YNCSDKTelemetryHealth</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryHealthAllOk.html">YNCSDKTelemetryHealthAllOk</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryHomePosition.html">YNCSDKTelemetryHomePosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryInAir.html">YNCSDKTelemetryInAir</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryPosition.html">YNCSDKTelemetryPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryRCStatus.html">YNCSDKTelemetryRCStatus</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/YNCCameraAction.html">YNCCameraAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/YNCTelemetryFlightMode.html">YNCTelemetryFlightMode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKConnectionDelegate.html">YNCSDKConnectionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKMissionDelegate.html">YNCSDKMissionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryArmedDelegate.html">YNCSDKTelemetryArmedDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryAttitudeEulerAngleDelegate.html">YNCSDKTelemetryAttitudeEulerAngleDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryAttitudeQuaternionDelegate.html">YNCSDKTelemetryAttitudeQuaternionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryBatteryDelegate.html">YNCSDKTelemetryBatteryDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryCameraAttitudeEulerAngleDelegate.html">YNCSDKTelemetryCameraAttitudeEulerAngleDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryCameraAttitudeQuaternionDelegate.html">YNCSDKTelemetryCameraAttitudeQuaternionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryFlightModeDelegate.html">YNCSDKTelemetryFlightModeDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryGPSInfoDelegate.html">YNCSDKTelemetryGPSInfoDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryGroundSpeedNEDDelegate.html">YNCSDKTelemetryGroundSpeedNEDDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryHealthAllOkDelegate.html">YNCSDKTelemetryHealthAllOkDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryHealthDelegate.html">YNCSDKTelemetryHealthDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryHomePositionDelegate.html">YNCSDKTelemetryHomePositionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryInAirDelegate.html">YNCSDKTelemetryInAirDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryPositionDelegate.html">YNCSDKTelemetryPositionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryRCStatusDelegate.html">YNCSDKTelemetryRCStatusDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Type Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Type Definitions.html#/c:YNCSDKAction.h@T@YNCActionCompletion">YNCActionCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Type Definitions.html#/c:YNCSDKCamera.h@T@YNCCameraCompletion">YNCCameraCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Type Definitions.html#/c:YNCSDKGimbal.h@T@YNCGimbalCompletion">YNCGimbalCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Type Definitions.html#/c:YNCSDKMission.h@T@YNCMissionCompletion">YNCMissionCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Type Definitions.html#/c:YNCSDKMission.h@T@YNCMissionProgressCallbackBlock">YNCMissionProgressCallbackBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Type Definitions.html#/c:YNCSDKOffboard.h@T@YNCOffboardCompletion">YNCOffboardCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Type Definitions.html#/c:YNCSDKCamera.h@T@YNCReceiveDataCompletionBlock">YNCReceiveDataCompletionBlock</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>Protocols</h1>
+            <p>The following protocols are available globally.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKConnectionDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKConnectionDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKConnectionDelegate">YNCSDKConnectionDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This delegate provides notification of the connection status.</p>
+
+                        <a href="Protocols/YNCSDKConnectionDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKConnectionDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKConnectionDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKMissionDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKMissionDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKMissionDelegate">YNCSDKMissionDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This delegate provides status updates for waypoint missions.</p>
+
+                        <a href="Protocols/YNCSDKMissionDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKMissionDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKMissionDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKTelemetryBatteryDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKTelemetryBatteryDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKTelemetryBatteryDelegate">YNCSDKTelemetryBatteryDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This protocol provides delegate methods to subscribe to battery status updates.</p>
+
+                        <a href="Protocols/YNCSDKTelemetryBatteryDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKTelemetryBatteryDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKTelemetryBatteryDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKTelemetryPositionDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKTelemetryPositionDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKTelemetryPositionDelegate">YNCSDKTelemetryPositionDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This delegate provides position updates of the drone.</p>
+
+                        <a href="Protocols/YNCSDKTelemetryPositionDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKTelemetryPositionDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKTelemetryPositionDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKTelemetryHomePositionDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKTelemetryHomePositionDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKTelemetryHomePositionDelegate">YNCSDKTelemetryHomePositionDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This delegate provides home position updates of the drone.</p>
+
+                        <a href="Protocols/YNCSDKTelemetryHomePositionDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKTelemetryHomePositionDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKTelemetryHomePositionDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKTelemetryGroundSpeedNEDDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKTelemetryGroundSpeedNEDDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKTelemetryGroundSpeedNEDDelegate">YNCSDKTelemetryGroundSpeedNEDDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This delegate provides ground speed updates of the drone.</p>
+
+                        <a href="Protocols/YNCSDKTelemetryGroundSpeedNEDDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKTelemetryGroundSpeedNEDDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKTelemetryGroundSpeedNEDDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKTelemetryGPSInfoDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKTelemetryGPSInfoDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKTelemetryGPSInfoDelegate">YNCSDKTelemetryGPSInfoDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This delegate provides GPS info updates of the drone.</p>
+
+                        <a href="Protocols/YNCSDKTelemetryGPSInfoDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKTelemetryGPSInfoDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKTelemetryGPSInfoDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKTelemetryAttitudeEulerAngleDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKTelemetryAttitudeEulerAngleDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKTelemetryAttitudeEulerAngleDelegate">YNCSDKTelemetryAttitudeEulerAngleDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This delegate provides attitude updates (in euler angles) of the drone.</p>
+
+                        <a href="Protocols/YNCSDKTelemetryAttitudeEulerAngleDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKTelemetryAttitudeEulerAngleDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKTelemetryAttitudeEulerAngleDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKTelemetryAttitudeQuaternionDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKTelemetryAttitudeQuaternionDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKTelemetryAttitudeQuaternionDelegate">YNCSDKTelemetryAttitudeQuaternionDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This delegate provides attitude updates (in quaternion) of the drone.</p>
+
+                        <a href="Protocols/YNCSDKTelemetryAttitudeQuaternionDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKTelemetryAttitudeQuaternionDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKTelemetryAttitudeQuaternionDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKTelemetryInAirDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKTelemetryInAirDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKTelemetryInAirDelegate">YNCSDKTelemetryInAirDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This delegate provides the in-air status updates of the drone.</p>
+
+                        <a href="Protocols/YNCSDKTelemetryInAirDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKTelemetryInAirDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKTelemetryInAirDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKTelemetryCameraAttitudeEulerAngleDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKTelemetryCameraAttitudeEulerAngleDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKTelemetryCameraAttitudeEulerAngleDelegate">YNCSDKTelemetryCameraAttitudeEulerAngleDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This delegate provides attitude updates (in euler angles) of the camera.</p>
+
+                        <a href="Protocols/YNCSDKTelemetryCameraAttitudeEulerAngleDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKTelemetryCameraAttitudeEulerAngleDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKTelemetryCameraAttitudeEulerAngleDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKTelemetryCameraAttitudeQuaternionDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKTelemetryCameraAttitudeQuaternionDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKTelemetryCameraAttitudeQuaternionDelegate">YNCSDKTelemetryCameraAttitudeQuaternionDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This delegate provides attitude updates (in quarternion) of the camera.</p>
+
+                        <a href="Protocols/YNCSDKTelemetryCameraAttitudeQuaternionDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKTelemetryCameraAttitudeQuaternionDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKTelemetryCameraAttitudeQuaternionDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKTelemetryRCStatusDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKTelemetryRCStatusDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKTelemetryRCStatusDelegate">YNCSDKTelemetryRCStatusDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This delegate provides remote control status updates.</p>
+
+                        <a href="Protocols/YNCSDKTelemetryRCStatusDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKTelemetryRCStatusDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKTelemetryRCStatusDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKTelemetryFlightModeDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKTelemetryFlightModeDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKTelemetryFlightModeDelegate">YNCSDKTelemetryFlightModeDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This delegate provides flight mode updates.</p>
+
+                        <a href="Protocols/YNCSDKTelemetryFlightModeDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKTelemetryFlightModeDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKTelemetryFlightModeDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKTelemetryHealthDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKTelemetryHealthDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKTelemetryHealthDelegate">YNCSDKTelemetryHealthDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This delegate provides health status updates of the drone.</p>
+
+                        <a href="Protocols/YNCSDKTelemetryHealthDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKTelemetryHealthDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKTelemetryHealthDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKTelemetryArmedDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKTelemetryArmedDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKTelemetryArmedDelegate">YNCSDKTelemetryArmedDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This delegate provides armed status updates.</p>
+
+                        <a href="Protocols/YNCSDKTelemetryArmedDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKTelemetryArmedDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKTelemetryArmedDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)YNCSDKTelemetryHealthAllOkDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/YNCSDKTelemetryHealthAllOkDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)YNCSDKTelemetryHealthAllOkDelegate">YNCSDKTelemetryHealthAllOkDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This delegate provides the overall health status.</p>
+
+                        <a href="Protocols/YNCSDKTelemetryHealthAllOkDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">YNCSDKTelemetryHealthAllOkDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">YNCSDKTelemetryHealthAllOkDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-08-24)</p>
+      <p>For further assistance visit the <a class="link" href="https://developer.yuneec.com" target="_blank" rel="external">Yuneec Developer Site</a>.</p>
+    </section>
+  </body>
+</div>
+</html>

@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080E8C431E56EDE600E48132 /* YNCSDKMissionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 080E8C411E56EDE600E48132 /* YNCSDKMissionItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		080E8C441E56EDE600E48132 /* YNCSDKMissionItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 080E8C421E56EDE600E48132 /* YNCSDKMissionItem.mm */; };
+		0817D88A1E977F850062ADCF /* YNCSDKGimbal.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F34C9B1E2F4CBE0022D1B8 /* YNCSDKGimbal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		082C065A1E150EAB00BDD785 /* Yuneec_SDK_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 082C06581E150EAB00BDD785 /* Yuneec_SDK_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		082C066E1E150ED400BDD785 /* YNCSDKAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 082C06601E150ED400BDD785 /* YNCSDKAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		082C066F1E150ED400BDD785 /* YNCSDKAction.mm in Sources */ = {isa = PBXBuildFile; fileRef = 082C06611E150ED400BDD785 /* YNCSDKAction.mm */; };
+		082C06701E150ED400BDD785 /* YNCSDKConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 082C06621E150ED400BDD785 /* YNCSDKConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		082C06711E150ED400BDD785 /* YNCSDKConnection.mm in Sources */ = {isa = PBXBuildFile; fileRef = 082C06631E150ED400BDD785 /* YNCSDKConnection.mm */; };
+		082C06751E150ED400BDD785 /* YNCSDKInternal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 082C06671E150ED400BDD785 /* YNCSDKInternal.mm */; };
+		082C06761E150ED400BDD785 /* YNCSDKOffboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 082C06681E150ED400BDD785 /* YNCSDKOffboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		082C06771E150ED400BDD785 /* YNCSDKOffboard.mm in Sources */ = {isa = PBXBuildFile; fileRef = 082C06691E150ED400BDD785 /* YNCSDKOffboard.mm */; };
+		082C06781E150ED400BDD785 /* YNCSDKTelemetry.h in Headers */ = {isa = PBXBuildFile; fileRef = 082C066A1E150ED400BDD785 /* YNCSDKTelemetry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		082C06791E150ED400BDD785 /* YNCSDKTelemetry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 082C066B1E150ED400BDD785 /* YNCSDKTelemetry.mm */; };
+		082C06881E157A1500BDD785 /* libdronelink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 082C06871E157A1500BDD785 /* libdronelink.a */; };
+		0842318B1F5855F5001E53DA /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0842318A1F5855F5001E53DA /* libcurl.a */; };
+		0842318D1F58725F001E53DA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0842318C1F58725F001E53DA /* Security.framework */; };
+		0842318F1F587272001E53DA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0842318E1F587272001E53DA /* libz.tbd */; };
+		B9FFEDE41E1F658A008458AE /* YNCSDKMission.h in Headers */ = {isa = PBXBuildFile; fileRef = B9FFEDE21E1F658A008458AE /* YNCSDKMission.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9FFEDE51E1F658A008458AE /* YNCSDKMission.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9FFEDE31E1F658A008458AE /* YNCSDKMission.mm */; };
+		F4B49D751E81037100C44328 /* YNCSDKCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B49D731E81037100C44328 /* YNCSDKCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4B49D761E81037100C44328 /* YNCSDKCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = F4B49D741E81037100C44328 /* YNCSDKCamera.mm */; };
+		F4F34C9E1E2F4CBE0022D1B8 /* YNCSDKGimbal.mm in Sources */ = {isa = PBXBuildFile; fileRef = F4F34C9C1E2F4CBE0022D1B8 /* YNCSDKGimbal.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		080E8C411E56EDE600E48132 /* YNCSDKMissionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNCSDKMissionItem.h; sourceTree = "<group>"; };
+		080E8C421E56EDE600E48132 /* YNCSDKMissionItem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YNCSDKMissionItem.mm; sourceTree = "<group>"; };
+		082C06551E150EAB00BDD785 /* Yuneec_SDK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Yuneec_SDK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		082C06581E150EAB00BDD785 /* Yuneec_SDK_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Yuneec_SDK_iOS.h; sourceTree = "<group>"; };
+		082C06591E150EAB00BDD785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		082C06601E150ED400BDD785 /* YNCSDKAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNCSDKAction.h; sourceTree = "<group>"; };
+		082C06611E150ED400BDD785 /* YNCSDKAction.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YNCSDKAction.mm; sourceTree = "<group>"; };
+		082C06621E150ED400BDD785 /* YNCSDKConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNCSDKConnection.h; sourceTree = "<group>"; };
+		082C06631E150ED400BDD785 /* YNCSDKConnection.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YNCSDKConnection.mm; sourceTree = "<group>"; };
+		082C06661E150ED400BDD785 /* YNCSDKInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNCSDKInternal.h; sourceTree = "<group>"; };
+		082C06671E150ED400BDD785 /* YNCSDKInternal.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YNCSDKInternal.mm; sourceTree = "<group>"; };
+		082C06681E150ED400BDD785 /* YNCSDKOffboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNCSDKOffboard.h; sourceTree = "<group>"; };
+		082C06691E150ED400BDD785 /* YNCSDKOffboard.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YNCSDKOffboard.mm; sourceTree = "<group>"; };
+		082C066A1E150ED400BDD785 /* YNCSDKTelemetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNCSDKTelemetry.h; sourceTree = "<group>"; };
+		082C066B1E150ED400BDD785 /* YNCSDKTelemetry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YNCSDKTelemetry.mm; sourceTree = "<group>"; };
+		082C067D1E155F7D00BDD785 /* libdronelink.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdronelink.a; path = "../Yuneec-SDK/lib/ios/libdronelink.a"; sourceTree = "<group>"; };
+		082C06871E157A1500BDD785 /* libdronelink.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdronelink.a; path = "Yuneec_SDK_iOS/libs/Yuneec-SDK/lib/ios/libdronelink.a"; sourceTree = "<group>"; };
+		0842318A1F5855F5001E53DA /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = "Yuneec_SDK_iOS/libs/Yuneec-SDK/lib/ios/libcurl.a"; sourceTree = "<group>"; };
+		0842318C1F58725F001E53DA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0842318E1F587272001E53DA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B9FFEDE21E1F658A008458AE /* YNCSDKMission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNCSDKMission.h; sourceTree = "<group>"; };
+		B9FFEDE31E1F658A008458AE /* YNCSDKMission.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YNCSDKMission.mm; sourceTree = "<group>"; };
+		F4B49D731E81037100C44328 /* YNCSDKCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNCSDKCamera.h; sourceTree = "<group>"; };
+		F4B49D741E81037100C44328 /* YNCSDKCamera.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YNCSDKCamera.mm; sourceTree = "<group>"; };
+		F4F34C9B1E2F4CBE0022D1B8 /* YNCSDKGimbal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNCSDKGimbal.h; sourceTree = "<group>"; };
+		F4F34C9C1E2F4CBE0022D1B8 /* YNCSDKGimbal.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YNCSDKGimbal.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		082C06511E150EAB00BDD785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0842318F1F587272001E53DA /* libz.tbd in Frameworks */,
+				0842318D1F58725F001E53DA /* Security.framework in Frameworks */,
+				0842318B1F5855F5001E53DA /* libcurl.a in Frameworks */,
+				082C06881E157A1500BDD785 /* libdronelink.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082C064B1E150EAB00BDD785 = {
+			isa = PBXGroup;
+			children = (
+				082C06571E150EAB00BDD785 /* Yuneec_SDK_iOS */,
+				082C06561E150EAB00BDD785 /* Products */,
+				082C067C1E155F7D00BDD785 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		082C06561E150EAB00BDD785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				082C06551E150EAB00BDD785 /* Yuneec_SDK_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		082C06571E150EAB00BDD785 /* Yuneec_SDK_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F4B49D731E81037100C44328 /* YNCSDKCamera.h */,
+				F4B49D741E81037100C44328 /* YNCSDKCamera.mm */,
+				F4F34C9B1E2F4CBE0022D1B8 /* YNCSDKGimbal.h */,
+				F4F34C9C1E2F4CBE0022D1B8 /* YNCSDKGimbal.mm */,
+				082C06601E150ED400BDD785 /* YNCSDKAction.h */,
+				082C06611E150ED400BDD785 /* YNCSDKAction.mm */,
+				082C06621E150ED400BDD785 /* YNCSDKConnection.h */,
+				082C06631E150ED400BDD785 /* YNCSDKConnection.mm */,
+				082C06661E150ED400BDD785 /* YNCSDKInternal.h */,
+				082C06671E150ED400BDD785 /* YNCSDKInternal.mm */,
+				082C06681E150ED400BDD785 /* YNCSDKOffboard.h */,
+				082C06691E150ED400BDD785 /* YNCSDKOffboard.mm */,
+				082C066A1E150ED400BDD785 /* YNCSDKTelemetry.h */,
+				082C066B1E150ED400BDD785 /* YNCSDKTelemetry.mm */,
+				B9FFEDE21E1F658A008458AE /* YNCSDKMission.h */,
+				B9FFEDE31E1F658A008458AE /* YNCSDKMission.mm */,
+				080E8C411E56EDE600E48132 /* YNCSDKMissionItem.h */,
+				080E8C421E56EDE600E48132 /* YNCSDKMissionItem.mm */,
+				082C06581E150EAB00BDD785 /* Yuneec_SDK_iOS.h */,
+				082C06591E150EAB00BDD785 /* Info.plist */,
+			);
+			path = Yuneec_SDK_iOS;
+			sourceTree = "<group>";
+		};
+		082C067C1E155F7D00BDD785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0842318E1F587272001E53DA /* libz.tbd */,
+				0842318C1F58725F001E53DA /* Security.framework */,
+				0842318A1F5855F5001E53DA /* libcurl.a */,
+				082C06871E157A1500BDD785 /* libdronelink.a */,
+				082C067D1E155F7D00BDD785 /* libdronelink.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		082C06521E150EAB00BDD785 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082C065A1E150EAB00BDD785 /* Yuneec_SDK_iOS.h in Headers */,
+				082C066E1E150ED400BDD785 /* YNCSDKAction.h in Headers */,
+				0817D88A1E977F850062ADCF /* YNCSDKGimbal.h in Headers */,
+				082C06781E150ED400BDD785 /* YNCSDKTelemetry.h in Headers */,
+				082C06701E150ED400BDD785 /* YNCSDKConnection.h in Headers */,
+				082C06761E150ED400BDD785 /* YNCSDKOffboard.h in Headers */,
+				F4B49D751E81037100C44328 /* YNCSDKCamera.h in Headers */,
+				080E8C431E56EDE600E48132 /* YNCSDKMissionItem.h in Headers */,
+				B9FFEDE41E1F658A008458AE /* YNCSDKMission.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		082C06541E150EAB00BDD785 /* Yuneec_SDK_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082C065D1E150EAB00BDD785 /* Build configuration list for PBXNativeTarget "Yuneec_SDK_iOS" */;
+			buildPhases = (
+				082C06501E150EAB00BDD785 /* Sources */,
+				082C06511E150EAB00BDD785 /* Frameworks */,
+				082C06521E150EAB00BDD785 /* Headers */,
+				082C06531E150EAB00BDD785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yuneec_SDK_iOS;
+			productName = Yuneec_SDK_iOS;
+			productReference = 082C06551E150EAB00BDD785 /* Yuneec_SDK_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		082C064C1E150EAB00BDD785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Yuneec;
+				TargetAttributes = {
+					082C06541E150EAB00BDD785 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 082C064F1E150EAB00BDD785 /* Build configuration list for PBXProject "Yuneec_SDK_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 082C064B1E150EAB00BDD785;
+			productRefGroup = 082C06561E150EAB00BDD785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				082C06541E150EAB00BDD785 /* Yuneec_SDK_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		082C06531E150EAB00BDD785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		082C06501E150EAB00BDD785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082C06771E150ED400BDD785 /* YNCSDKOffboard.mm in Sources */,
+				082C066F1E150ED400BDD785 /* YNCSDKAction.mm in Sources */,
+				082C06751E150ED400BDD785 /* YNCSDKInternal.mm in Sources */,
+				082C06711E150ED400BDD785 /* YNCSDKConnection.mm in Sources */,
+				F4F34C9E1E2F4CBE0022D1B8 /* YNCSDKGimbal.mm in Sources */,
+				080E8C441E56EDE600E48132 /* YNCSDKMissionItem.mm in Sources */,
+				B9FFEDE51E1F658A008458AE /* YNCSDKMission.mm in Sources */,
+				082C06791E150ED400BDD785 /* YNCSDKTelemetry.mm in Sources */,
+				F4B49D761E81037100C44328 /* YNCSDKCamera.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		082C065B1E150EAB00BDD785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Yuneec_SDK_iOS/libs/Yuneec-SDK/include/";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Yuneec_SDK_iOS/libs/Yuneec-SDK/lib/ios";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		082C065C1E150EAB00BDD785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Yuneec_SDK_iOS/libs/Yuneec-SDK/include/";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Yuneec_SDK_iOS/libs/Yuneec-SDK/lib/ios";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		082C065E1E150EAB00BDD785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Yuneec_SDK_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Yuneec_SDK_iOS/libs/Yuneec-SDK/lib/ios",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yuneec.Yuneec-SDK-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		082C065F1E150EAB00BDD785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Yuneec_SDK_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Yuneec_SDK_iOS/libs/Yuneec-SDK/lib/ios",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yuneec.Yuneec-SDK-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		082C064F1E150EAB00BDD785 /* Build configuration list for PBXProject "Yuneec_SDK_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082C065B1E150EAB00BDD785 /* Debug */,
+				082C065C1E150EAB00BDD785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		082C065D1E150EAB00BDD785 /* Build configuration list for PBXNativeTarget "Yuneec_SDK_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082C065E1E150EAB00BDD785 /* Debug */,
+				082C065F1E150EAB00BDD785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 082C064C1E150EAB00BDD785 /* Project object */;
+}

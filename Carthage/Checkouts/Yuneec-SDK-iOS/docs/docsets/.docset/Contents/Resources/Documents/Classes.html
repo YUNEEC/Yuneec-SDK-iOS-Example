@@ -1,0 +1,1412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Classes  Yuneec iOS SDK Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="Classes  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+           Yuneec iOS SDK
+        </a>
+         (100% documented)
+      </p>
+    
+    <!--
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    -->
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html"> Yuneec SDK Reference</a>
+      <img class="carat" src="img/carat.png" />
+      Classes  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCAction.html">YNCAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCAttitudeEulerAngle.html">YNCAttitudeEulerAngle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCAttitudeQuaternion.html">YNCAttitudeQuaternion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCBattery.html">YNCBattery</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCCameraSettings.html">YNCCameraSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCGPSInfo.html">YNCGPSInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCGroundSpeedNED.html">YNCGroundSpeedNED</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCHealth.html">YNCHealth</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCPosition.html">YNCPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCRCStatus.html">YNCRCStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKCamera.html">YNCSDKCamera</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKConnection.html">YNCSDKConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKGimbal.html">YNCSDKGimbal</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKMission.html">YNCSDKMission</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKMissionItem.html">YNCSDKMissionItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKOffboard.html">YNCSDKOffboard</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryArmed.html">YNCSDKTelemetryArmed</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryAttitudeEulerAngle.html">YNCSDKTelemetryAttitudeEulerAngle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryAttitudeQuaternion.html">YNCSDKTelemetryAttitudeQuaternion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryBattery.html">YNCSDKTelemetryBattery</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryCameraAttitudeEulerAngle.html">YNCSDKTelemetryCameraAttitudeEulerAngle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryCameraAttitudeQuaternion.html">YNCSDKTelemetryCameraAttitudeQuaternion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryFlightMode.html">YNCSDKTelemetryFlightMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryGPSInfo.html">YNCSDKTelemetryGPSInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryGroundSpeedNED.html">YNCSDKTelemetryGroundSpeedNED</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryHealth.html">YNCSDKTelemetryHealth</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryHealthAllOk.html">YNCSDKTelemetryHealthAllOk</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryHomePosition.html">YNCSDKTelemetryHomePosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryInAir.html">YNCSDKTelemetryInAir</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryPosition.html">YNCSDKTelemetryPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/YNCSDKTelemetryRCStatus.html">YNCSDKTelemetryRCStatus</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/YNCCameraAction.html">YNCCameraAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/YNCTelemetryFlightMode.html">YNCTelemetryFlightMode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKConnectionDelegate.html">YNCSDKConnectionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKMissionDelegate.html">YNCSDKMissionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryArmedDelegate.html">YNCSDKTelemetryArmedDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryAttitudeEulerAngleDelegate.html">YNCSDKTelemetryAttitudeEulerAngleDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryAttitudeQuaternionDelegate.html">YNCSDKTelemetryAttitudeQuaternionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryBatteryDelegate.html">YNCSDKTelemetryBatteryDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryCameraAttitudeEulerAngleDelegate.html">YNCSDKTelemetryCameraAttitudeEulerAngleDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryCameraAttitudeQuaternionDelegate.html">YNCSDKTelemetryCameraAttitudeQuaternionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryFlightModeDelegate.html">YNCSDKTelemetryFlightModeDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryGPSInfoDelegate.html">YNCSDKTelemetryGPSInfoDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryGroundSpeedNEDDelegate.html">YNCSDKTelemetryGroundSpeedNEDDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryHealthAllOkDelegate.html">YNCSDKTelemetryHealthAllOkDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryHealthDelegate.html">YNCSDKTelemetryHealthDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryHomePositionDelegate.html">YNCSDKTelemetryHomePositionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryInAirDelegate.html">YNCSDKTelemetryInAirDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryPositionDelegate.html">YNCSDKTelemetryPositionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/YNCSDKTelemetryRCStatusDelegate.html">YNCSDKTelemetryRCStatusDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Type Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Type Definitions.html#/c:YNCSDKAction.h@T@YNCActionCompletion">YNCActionCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Type Definitions.html#/c:YNCSDKCamera.h@T@YNCCameraCompletion">YNCCameraCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Type Definitions.html#/c:YNCSDKGimbal.h@T@YNCGimbalCompletion">YNCGimbalCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Type Definitions.html#/c:YNCSDKMission.h@T@YNCMissionCompletion">YNCMissionCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Type Definitions.html#/c:YNCSDKMission.h@T@YNCMissionProgressCallbackBlock">YNCMissionProgressCallbackBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Type Definitions.html#/c:YNCSDKOffboard.h@T@YNCOffboardCompletion">YNCOffboardCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Type Definitions.html#/c:YNCSDKCamera.h@T@YNCReceiveDataCompletionBlock">YNCReceiveDataCompletionBlock</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>Classes</h1>
+            <p>The following classes are available globally.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCAction"></a>
+                    <a name="//apple_ref/objc/Class/YNCAction" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCAction">YNCAction</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides methods to send different commands to the drone.</p>
+
+                        <a href="Classes/YNCAction.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCAction</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCAction</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCCameraSettings"></a>
+                    <a name="//apple_ref/objc/Class/YNCCameraSettings" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCCameraSettings">YNCCameraSettings</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class manages the camera settings of the drone.</p>
+
+                        <a href="Classes/YNCCameraSettings.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCCameraSettings</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCCameraSettings</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKCamera"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKCamera" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKCamera">YNCSDKCamera</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides methods for performing camera actions.</p>
+
+                        <a href="Classes/YNCSDKCamera.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKCamera</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKCamera</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKConnection"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKConnection" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKConnection">YNCSDKConnection</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides methods to manage the wireless link to the drone.</p>
+
+                        <a href="Classes/YNCSDKConnection.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKConnection</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKConnection</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKGimbal"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKGimbal" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKGimbal">YNCSDKGimbal</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class manages the gimbal properties of the drone.</p>
+
+                        <a href="Classes/YNCSDKGimbal.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKGimbal</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKGimbal</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKMission"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKMission" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKMission">YNCSDKMission</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class manages missions for the drone.</p>
+
+                        <a href="Classes/YNCSDKMission.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKMission</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKMission</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKMissionItem"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKMissionItem" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKMissionItem">YNCSDKMissionItem</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class represents a mission item, i.e. waypoint settings.</p>
+
+                        <a href="Classes/YNCSDKMissionItem.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKMissionItem</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKMissionItem</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKOffboard"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKOffboard" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKOffboard">YNCSDKOffboard</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides methods to send velocity commands to the drone.</p>
+
+                        <a href="Classes/YNCSDKOffboard.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKOffboard</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKOffboard</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCBattery"></a>
+                    <a name="//apple_ref/objc/Class/YNCBattery" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCBattery">YNCBattery</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class manages the real-time status of the battery component.</p>
+
+                        <a href="Classes/YNCBattery.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCBattery</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCBattery</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKTelemetryBattery"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKTelemetryBattery" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKTelemetryBattery">YNCSDKTelemetryBattery</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides a method to subscribe to battery status updates.</p>
+
+                        <a href="Classes/YNCSDKTelemetryBattery.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKTelemetryBattery</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKTelemetryBattery</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCPosition"></a>
+                    <a name="//apple_ref/objc/Class/YNCPosition" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCPosition">YNCPosition</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class contains fields associated with the drone&rsquo;s position.</p>
+
+                        <a href="Classes/YNCPosition.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCPosition</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCPosition</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKTelemetryPosition"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKTelemetryPosition" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKTelemetryPosition">YNCSDKTelemetryPosition</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides a method to subscribe to position updates.</p>
+
+                        <a href="Classes/YNCSDKTelemetryPosition.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKTelemetryPosition</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKTelemetryPosition</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKTelemetryHomePosition"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKTelemetryHomePosition" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKTelemetryHomePosition">YNCSDKTelemetryHomePosition</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides a method to subscribe to home position updates.</p>
+
+                        <a href="Classes/YNCSDKTelemetryHomePosition.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKTelemetryHomePosition</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKTelemetryHomePosition</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCGroundSpeedNED"></a>
+                    <a name="//apple_ref/objc/Class/YNCGroundSpeedNED" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCGroundSpeedNED">YNCGroundSpeedNED</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class contains the drone&rsquo;s speed in ground coordinates, which is the horizontal speed in the NED (North, East, Down) directions relative to the ground.</p>
+
+                        <a href="Classes/YNCGroundSpeedNED.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCGroundSpeedNED</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCGroundSpeedNED</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKTelemetryGroundSpeedNED"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKTelemetryGroundSpeedNED" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKTelemetryGroundSpeedNED">YNCSDKTelemetryGroundSpeedNED</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides a method to subscribe to ground speed updates.</p>
+
+                        <a href="Classes/YNCSDKTelemetryGroundSpeedNED.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKTelemetryGroundSpeedNED</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKTelemetryGroundSpeedNED</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCGPSInfo"></a>
+                    <a name="//apple_ref/objc/Class/YNCGPSInfo" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCGPSInfo">YNCGPSInfo</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class manages the drone&rsquo;s GPS infomation.</p>
+
+                        <a href="Classes/YNCGPSInfo.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCGPSInfo</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCGPSInfo</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKTelemetryGPSInfo"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKTelemetryGPSInfo" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKTelemetryGPSInfo">YNCSDKTelemetryGPSInfo</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides a method to subscribe to GPS info updates.</p>
+
+                        <a href="Classes/YNCSDKTelemetryGPSInfo.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKTelemetryGPSInfo</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKTelemetryGPSInfo</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCAttitudeEulerAngle"></a>
+                    <a name="//apple_ref/objc/Class/YNCAttitudeEulerAngle" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCAttitudeEulerAngle">YNCAttitudeEulerAngle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class tracks the drone attitude in euler angles.</p>
+
+                        <a href="Classes/YNCAttitudeEulerAngle.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCAttitudeEulerAngle</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCAttitudeEulerAngle</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKTelemetryAttitudeEulerAngle"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKTelemetryAttitudeEulerAngle" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKTelemetryAttitudeEulerAngle">YNCSDKTelemetryAttitudeEulerAngle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides a method to subscribe to attitude updates in euler angles.</p>
+
+                        <a href="Classes/YNCSDKTelemetryAttitudeEulerAngle.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKTelemetryAttitudeEulerAngle</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKTelemetryAttitudeEulerAngle</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCAttitudeQuaternion"></a>
+                    <a name="//apple_ref/objc/Class/YNCAttitudeQuaternion" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCAttitudeQuaternion">YNCAttitudeQuaternion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class tracks the drone attitude in quaternion.</p>
+
+                        <a href="Classes/YNCAttitudeQuaternion.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCAttitudeQuaternion</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCAttitudeQuaternion</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKTelemetryAttitudeQuaternion"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKTelemetryAttitudeQuaternion" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKTelemetryAttitudeQuaternion">YNCSDKTelemetryAttitudeQuaternion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides a method to subscribe to attitude updates in quaternion.</p>
+
+                        <a href="Classes/YNCSDKTelemetryAttitudeQuaternion.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKTelemetryAttitudeQuaternion</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKTelemetryAttitudeQuaternion</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKTelemetryInAir"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKTelemetryInAir" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKTelemetryInAir">YNCSDKTelemetryInAir</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides a method to subscribe to in-air status updates.</p>
+
+                        <a href="Classes/YNCSDKTelemetryInAir.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKTelemetryInAir</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKTelemetryInAir</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKTelemetryCameraAttitudeEulerAngle"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKTelemetryCameraAttitudeEulerAngle" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKTelemetryCameraAttitudeEulerAngle">YNCSDKTelemetryCameraAttitudeEulerAngle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides a method to subscribe to camera attitude updates (in euler angles).</p>
+
+                        <a href="Classes/YNCSDKTelemetryCameraAttitudeEulerAngle.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKTelemetryCameraAttitudeEulerAngle</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKTelemetryCameraAttitudeEulerAngle</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKTelemetryCameraAttitudeQuaternion"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKTelemetryCameraAttitudeQuaternion" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKTelemetryCameraAttitudeQuaternion">YNCSDKTelemetryCameraAttitudeQuaternion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides a method to subscribe to camera attitude updates (in quarternion).</p>
+
+                        <a href="Classes/YNCSDKTelemetryCameraAttitudeQuaternion.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKTelemetryCameraAttitudeQuaternion</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKTelemetryCameraAttitudeQuaternion</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCRCStatus"></a>
+                    <a name="//apple_ref/objc/Class/YNCRCStatus" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCRCStatus">YNCRCStatus</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class contains the drone&rsquo;s remote control (RC) link status.</p>
+
+                        <a href="Classes/YNCRCStatus.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCRCStatus</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCRCStatus</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKTelemetryRCStatus"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKTelemetryRCStatus" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKTelemetryRCStatus">YNCSDKTelemetryRCStatus</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides a method to subscribe to RC status updates.</p>
+
+                        <a href="Classes/YNCSDKTelemetryRCStatus.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKTelemetryRCStatus</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKTelemetryRCStatus</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKTelemetryFlightMode"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKTelemetryFlightMode" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKTelemetryFlightMode">YNCSDKTelemetryFlightMode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides a method to subscribe to flight mode updates.</p>
+
+                        <a href="Classes/YNCSDKTelemetryFlightMode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKTelemetryFlightMode</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKTelemetryFlightMode</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCHealth"></a>
+                    <a name="//apple_ref/objc/Class/YNCHealth" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCHealth">YNCHealth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class contains the drone&rsquo;s component health and status.</p>
+
+                        <a href="Classes/YNCHealth.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCHealth</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCHealth</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKTelemetryHealth"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKTelemetryHealth" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKTelemetryHealth">YNCSDKTelemetryHealth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides a method to subscribe to drone health updates.</p>
+
+                        <a href="Classes/YNCSDKTelemetryHealth.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKTelemetryHealth</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKTelemetryHealth</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKTelemetryArmed"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKTelemetryArmed" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKTelemetryArmed">YNCSDKTelemetryArmed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides a method to subscribe to armed status updates.</p>
+
+                        <a href="Classes/YNCSDKTelemetryArmed.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKTelemetryArmed</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKTelemetryArmed</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)YNCSDKTelemetryHealthAllOk"></a>
+                    <a name="//apple_ref/objc/Class/YNCSDKTelemetryHealthAllOk" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)YNCSDKTelemetryHealthAllOk">YNCSDKTelemetryHealthAllOk</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class provides a method to subscribe to overall health status updates.</p>
+
+                        <a href="Classes/YNCSDKTelemetryHealthAllOk.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">YNCSDKTelemetryHealthAllOk</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+            <!--  REMOVE SWIFT REFERENCES
+            
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">YNCSDKTelemetryHealthAllOk</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+            -->
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-08-24)</p>
+      <p>For further assistance visit the <a class="link" href="https://developer.yuneec.com" target="_blank" rel="external">Yuneec Developer Site</a>.</p>
+    </section>
+  </body>
+</div>
+</html>

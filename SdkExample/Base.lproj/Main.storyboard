@@ -140,6 +140,7 @@
                         <segue destination="NWj-Jc-OCp" kind="relationship" relationship="viewControllers" id="8uV-YQ-VxB"/>
                         <segue destination="YhY-8L-tDs" kind="relationship" relationship="viewControllers" id="q4w-vh-jzP"/>
                         <segue destination="1vs-bj-r1U" kind="relationship" relationship="viewControllers" id="x1s-rK-45I"/>
+                        <segue destination="UFq-Ad-mrm" kind="relationship" relationship="viewControllers" id="2u9-MG-bPs"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="daX-iv-tcf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -699,6 +700,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="epi-10-U2J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1686" y="1028"/>
+        </scene>
+        <!--Stream-->
+        <scene sceneID="lOZ-yS-HPg">
+            <objects>
+                <viewController id="UFq-Ad-mrm" customClass="StreamViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rxW-j0-sX4"/>
+                        <viewControllerLayoutGuide type="bottom" id="xD4-JR-IAh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qcv-2d-MEM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GCY-7Q-d1r">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <color key="backgroundColor" red="0.30532924107142856" green="1" blue="0.47488839285714285" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="618" id="bBS-ub-CzF"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GCY-7Q-d1r" firstAttribute="leading" secondItem="qcv-2d-MEM" secondAttribute="leading" id="OWa-CM-MlD"/>
+                            <constraint firstItem="GCY-7Q-d1r" firstAttribute="top" secondItem="rxW-j0-sX4" secondAttribute="bottom" constant="-20" id="fuW-BH-Vei"/>
+                            <constraint firstAttribute="trailing" secondItem="GCY-7Q-d1r" secondAttribute="trailing" id="vCo-yS-6hs"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Stream" id="Ngk-ft-Ela"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="videoStream" destination="GCY-7Q-d1r" id="hgV-ld-9fj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JB4-dY-EiG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2368.8000000000002" y="1027.736131934033"/>
         </scene>
     </scenes>
     <resources>
