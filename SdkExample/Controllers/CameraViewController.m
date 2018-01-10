@@ -76,6 +76,20 @@
         }
     }];
 }
+- (IBAction)getColorMode:(id)sender {
+    [YNCSDKCameraSettings getColorModeWithCompletion:^(YNCCameraColorMode colorMode, NSError *error) {
+        if (error) {
+            NSLog(@"error description - domain: %@\n code: %ld\n message: %@\n",
+                  error.domain, (long)error.code, error.userInfo[@"message"]);
+            [CameraViewController showAlert:[NSString stringWithFormat:@"%@ error: %@\n",
+                                             error.domain,
+                                             error.userInfo[@"message"]] :self];
+        } else {
+            NSLog(@"Color Mode is : %ld", (long) colorMode);
+        }
+    }];
+}
+
 - (IBAction)stopVideo:(id)sender {
     [YNCSDKCamera stopVideoWithCompletion:^(NSError *error) {
         if (error) {

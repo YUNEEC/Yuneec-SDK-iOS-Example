@@ -1,2 +1,2 @@
 # Require the Objective-C wrappers of the Yuneec SDK
-github "YUNEEC/Yuneec-SDK-iOS" >= 0.5.7
+github "YUNEEC/Yuneec-SDK-iOS" "add-camera-settings1"
