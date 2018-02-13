@@ -15,9 +15,51 @@
 
 @implementation CameraViewController
 
+NSString * url = nil;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+- (IBAction)getMediaList:(id)sender {
+    NSLog(@"get List");
+    [YNCSDKCamera getMediaInfosWithCompletion:^(NSArray<YNCCameraMediaInfo *> *YNCCameraMediaInfos, NSError *error) {
+        if (error) {
+            NSLog(@"error description - domain: %@\n code: %ld\n message: %@\n",
+                  error.domain, (long)error.code, error.userInfo[@"message"]);
+            [CameraViewController showAlert:[NSString stringWithFormat:@"%@ error: %@\n",
+                                             error.domain,
+                                             error.userInfo[@"message"]] :self];
+        } else {
+            if(YNCCameraMediaInfos) {
+                NSLog(@"Media Infos download successfull");
+                NSLog(@"%ld", [YNCCameraMediaInfos count]);
+                for(YNCCameraMediaInfo *mediaInfo in YNCCameraMediaInfos) {
+                    NSLog(@"%@", mediaInfo.path );
+                }
+            }
+            url = YNCCameraMediaInfos[0].path;
+        }
+    }];
+}
+- (IBAction)downloadMedia:(id)sender {
+    NSLog(@"download media");
+    NSArray *internalPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsPath = [internalPaths objectAtIndex:0]; //Get the docs directory
+    NSLog(@"%@", documentsPath );
+    NSLog(@"%@", url );
+    [YNCSDKCamera getMedia:documentsPath WithUrl:url WithCompletion:^(int progress, NSError *error) {
+        if (error) {
+            NSLog(@"error description - domain: %@\n code: %ld\n message: %@\n",
+                  error.domain, (long)error.code, error.userInfo[@"message"]);
+            [CameraViewController showAlert:[NSString stringWithFormat:@"%@ error: %@\n",
+                                             error.domain,
+                                             error.userInfo[@"message"]] :self];
+        } else {
+            NSLog(@"Media Info download successfull");
+            NSLog(@"%d", progress );
+        }
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
