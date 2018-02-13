@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="V0X-lK-dyA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="V0X-lK-dyA">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -631,7 +630,6 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="sendMission:" destination="YhY-8L-tDs" eventType="touchUpInside" id="bcf-QW-Uqa"/>
                                             <action selector="takePhoto:" destination="1vs-bj-r1U" eventType="touchUpInside" id="y8a-ng-uHN"/>
                                         </connections>
                                     </button>
@@ -645,7 +643,6 @@
                                         </state>
                                         <connections>
                                             <action selector="startInterval:" destination="1vs-bj-r1U" eventType="touchUpInside" id="D8A-0a-Jfx"/>
-                                            <action selector="startMission:" destination="YhY-8L-tDs" eventType="touchUpInside" id="4la-gT-W0g"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6HA-Io-WGQ">
@@ -657,7 +654,6 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="pauseMission:" destination="YhY-8L-tDs" eventType="touchUpInside" id="z1S-ee-UI6"/>
                                             <action selector="startVideo:" destination="1vs-bj-r1U" eventType="touchUpInside" id="RDB-Ux-BuE"/>
                                         </connections>
                                     </button>
@@ -670,7 +666,6 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="startMission:" destination="YhY-8L-tDs" eventType="touchUpInside" id="orv-nM-bgJ"/>
                                             <action selector="stopInterval:" destination="1vs-bj-r1U" eventType="touchUpInside" id="cNR-Q3-Mvn"/>
                                         </connections>
                                     </button>
@@ -683,8 +678,19 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="startMission:" destination="YhY-8L-tDs" eventType="touchUpInside" id="3KG-mY-LSY"/>
                                             <action selector="stopVideo:" destination="1vs-bj-r1U" eventType="touchUpInside" id="KFj-Ix-bax"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0V-ZB-U6H">
+                                        <rect key="frame" x="209" y="456" width="150" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.94117647059999998" green="0.29803921570000003" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="Download index">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="downoadIndex:" destination="1vs-bj-r1U" eventType="touchUpInside" id="meT-vf-YD6"/>
                                         </connections>
                                     </button>
                                 </subviews>

@@ -132,6 +132,29 @@ NSString * url = nil;
     }];
 }
 
+- (IBAction)downoadIndex:(id)sender {
+    [YNCSDKCamera getMediaInfosWithCompletion:^(NSMutableArray<YNCCameraMediaInfo *> *yncCameraMediaInfo, NSError *error) {
+        if (error) {
+            NSLog(@"error description - domain: %@\n code: %ld\n message: %@\n",
+                  error.domain, (long)error.code, error.userInfo[@"message"]);
+            [CameraViewController showAlert:[NSString stringWithFormat:@"%@ error: %@\n",
+                                             error.domain,
+                                             error.userInfo[@"message"]] :self];
+        } else {
+            if ([yncCameraMediaInfo count] > 0) {
+                NSLog(@"Media index gotten, first entry: %@", yncCameraMediaInfo[0].path);
+                // For now, we just stupidly download the first image in the list.
+                [YNCSDKCamera getMedia: @"tmp/image.jpg"
+                               WithUrl:yncCameraMediaInfo[0].path
+                        WithCompletion: ^(int progress, NSError *serror){
+                            NSLog(@"Received it: %d", progress);
+                        }
+                 ];
+            }
+        }
+    }];
+}
+
 + (void)showAlert:(NSString *)message :(UIViewController *)viewController {
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Alert"
                                                                    message:message
